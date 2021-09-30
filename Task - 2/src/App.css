@@ -1,0 +1,63 @@
+.user_data {
+  background-color: rgba(255, 255, 255, 0.829);
+  color: whitesmoke;
+  border-radius: 10px;
+}
+.nvbar {
+  background-color: rgba(39, 39, 38, 0.829);
+  padding:10px;
+  color: white;
+  border-radius: 10px;
+  }
+  
+ .nvitems h2 {
+  margin-left: 10%;
+  font-size: 32px;
+  display: inline-block;
+  } 
+  .nvitems h2:hover {
+    margin-left: 10%;
+    font-size: 32px;
+    color: rgb(77, 151, 247);
+    display: inline-block;
+    } 
+  .btn {
+    float: right;
+    margin-top: 20px;
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 10px 20px;
+    background-color: rgb(49, 49, 49);
+    cursor: pointer;
+  }
+  
+  .btn:hover {
+    background: linear-gradient(rgb(13, 138, 240), rgb(13, 154, 235));
+  }
+ 
+  .main {
+    display:inline-grid;
+    grid-template-columns: repeat(3, 1fr);
+    
+  }
+  
+  .pic {
+    border-radius: 100%;
+  }
+  
+  .user_profile {
+  
+    border-radius:20%;
+    background-image: linear-gradient(rgb(49, 49, 49), rgb(55, 56, 56));
+    margin:50px;
+    padding:20px;
+    text-align: center;
+    transition: transform .3s; 
+    cursor: pointer;
+    filter: blur(.5px);
+  }
+  
+  .user_profile:hover {
+    transform: scale(1.05);
+    background-image: linear-gradient(rgb(40, 120, 185),rgb(58, 122, 206));
+  }
